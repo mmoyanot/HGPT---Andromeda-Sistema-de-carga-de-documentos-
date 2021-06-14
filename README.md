@@ -9,8 +9,7 @@ Acciones: Se considera crear un sistema pequeño y sencillo, el cual contiene un
           removeDirectory() o move_uploaded_file() en vez de cargar las rutas de los archivos a la base de datos y hacer un crud tradicional.
           
 Observaciones y mejoras: Fue creado en php 7, pero por algun motivo, al subirlo a un servidor de Centos, no funcionan las sentencias de carpeta. Esto se corrige usando una 
-                         versión de xampp que contiene php5.
-                         
+                         versión de xampp que contiene php5.                         
                          Como inicialmente el mantenedor iba a ser sólo para una persona, y se necesitaba con urgencia, los usuarios son creados directamente en la base de datos
                          y la carpeta de su área también la debe crear el administrador del software. 
                          Aún así, es un sistema escalable. En caso de que se adhieran más usuarios, se debe considerar crear un mantenedor de usuarios para poder automatizar la 
